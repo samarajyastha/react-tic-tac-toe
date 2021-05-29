@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 52px;
+}
+h2 {
+  font-size: 38px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table-bordered td,
+.table-bordered {
+  border: 3px solid #dee2e6;
+  padding: 1px;
+}
+.tic-tac-toe td {
+  height: 160px;
+  width: 150px;
+}
+.tic-tac-toe span {
+  font-size: 94px;
+  font-family: "Nunito", sans-serif;
+}
+.instructions ol li {
+  font-family: "Roboto", sans-serif;
+}
+.sticky-top {
+  top: -1px;
+}
+header {
+  margin-top: 50px;
+}
+.tic-tac-toe .btn {
+  height: 160px;
+}
+.btn:disabled {
+  opacity: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 768px) {
+  .tic-tac-toe span {
+    font-size: 68px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .tic-tac-toe .btn {
+    height: 115px;
   }
-  to {
-    transform: rotate(360deg);
+  .tic-tac-toe td {
+    height: 115px;
+    width: 120px;
+  }
+  header {
+    background: #000;
+    opacity: 0.8;
+    margin-top: 0;
   }
 }
