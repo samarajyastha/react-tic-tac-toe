@@ -8,4 +8,4 @@ Play the game [Tic Tac Toe](https://react-tic-tac-toe-x.herokuapp.com/)
 - Whoever makes 3 in a row loses the game.
 - The key is to avoid making a row.
 
-Follow me at [Samarajya Shrestha](https://github.com/samarajyastha) for more exciting projects.
+Follow [Samarajya Shrestha](https://github.com/samarajyastha) for more exciting projects.
